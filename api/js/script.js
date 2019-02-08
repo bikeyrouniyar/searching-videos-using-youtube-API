@@ -41,7 +41,7 @@ function search(){
 			part: 'snippet, id',
 			q: q,
 			type:'video',
-		key: 'AIzaSyC_sjAy0BYvqqHk4DWJRkMQXoGcrM4-XYc'},
+		key: 'your_APIKey'},
 		function(data){
 			var nextPageToken = data.nextPageToken;
 			var previousPageToken = data.previousPageToken;
